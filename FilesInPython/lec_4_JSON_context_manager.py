@@ -1,19 +1,29 @@
 import json
 
-file = open('friend_json','r')
-file_contents = json.load(file)
+# file = open('friend_json','r')
+# file_contents = json.load(file)
+#
+# file.close()
 
-file.close()
+## new methods and easier one context manager
 
-# print(file_contents['friends'][0])
+with open('friend_json','r') as file:
+    file_contents = json.load(file)
+
+
+
+print(file_contents['friends'][0])
+
+
 
 cars = [
     {'make':'Ford','modal':'Fiesta'},
     {'make':'Ford','modal':'Focus'},
 ]
 
-json.dump(cars,file)
-file.close()
+with open('friend_json','w') as file:
+    json.dump(cars,file)
+
 
 
 ## dumps allows you to turn dictionary into string

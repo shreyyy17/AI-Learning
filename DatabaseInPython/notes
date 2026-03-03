@@ -1,0 +1,2 @@
+# Cursor: All the operations in SQLite are made by Cursor
+# Commit() : Save the result of this qurey to disk
