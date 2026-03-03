@@ -1,0 +1,4 @@
+2026-03-03 09:51:36,688 INFO     [lec_4_Regular_Expressions.py:18] This wil happen
+2026-03-03 09:51:36,688 WARNING  [lec_4_Regular_Expressions.py:19] This will 
+2026-03-03 09:51:36,688 DEBUG    [lec_4_Regular_Expressions.py:20] This will 
+2026-03-03 09:51:36,688 CRITICAL [lec_4_Regular_Expressions.py:21] This will 
