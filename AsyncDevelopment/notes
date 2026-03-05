@@ -1,0 +1,14 @@
+Dining Philosophers
+python can not run multiple things at sametime
+*Thread : a line of execution
+** one thread running at one core
+
+***  Process : at least one thread and some resources
+
+in python you cannot run 2 threads in a one process
+
+
+GIL:  Global interpreter lock ==> type of resource
+
+we can run multiple processes at a same time
+
