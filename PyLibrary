@@ -1,0 +1,33 @@
+Database libraries :
+    - sqlite3
+    - psycopg2
+    - aiopg
+    - SQLAlchemy
+
+Web Development :
+    - Flask
+    - Django
+    - aiohttp, Tornado, Sanic, Quart
+    - Bottle
+
+Communications :
+    - smtplib (Email sender)
+    - Mailgun  (Email sender)
+    - Twilio
+
+GUI design :
+    - Kivy
+    -
+
+Data science :
+    - NumPy
+    - SciPy
+    - Pandas
+    - Matplotlib
+    - Jupyter notebooks
+
+Development tools :
+    - pylint
+    - flake8
+    - yapf
+    - Black
